@@ -1,0 +1,49 @@
+.slika{
+    padding: 5px;
+    width: 150px;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.izgini{
+    color: black;
+}
+
+.cont{
+    padding-left: 10px;
+    padding-right:10px;
+}
+.kosara{
+    color:white;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.uporabnik{
+    color:white;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.kosara:hover {
+    color: #399b3e;
+  }
+
+
+.uporabnik:hover {
+    color:#399b3e;
+  }
+
+  @media (min-width:1000px) {
+    .cont{
+        padding-right:90px;
+    }
+}
+.active{
+    color: #399b3e;
+  
+
+   
+}
