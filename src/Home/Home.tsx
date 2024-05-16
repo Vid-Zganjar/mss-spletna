@@ -6,7 +6,6 @@ import slika from "../Slike/logo-bel.png"
 import Trgovina from './CardTrgovina';
 import SimplAbout from './SimplAbout';
 import Novicke from './Novicke';
-import Invite from './invite';
 import Footer from '../Footer/Footer';
 
 const Home = () => {

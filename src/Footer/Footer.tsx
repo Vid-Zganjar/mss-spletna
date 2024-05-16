@@ -25,16 +25,16 @@ const Footer = () => {
           </div>
           <div className="flex space-x-10 mb-6 p-8">
           <NavLink to="/novice">
-              <a  className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Novice</a>
+              <a href='#' className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Novice</a>
           </NavLink>
           <NavLink to="/trgovina">
-              <a  className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Trgovina</a>
+              <a href='#' className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Trgovina</a>
           </NavLink>
           <NavLink to="/about">
-              <a className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">O nas</a>
+              <a href='#' className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">O nas</a>
           </NavLink>
           <NavLink to="/">
-              <a className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Domov</a>
+              <a href='#' className="border-b-2 border-transparent hover:border-green-500 sm:mx-10">Domov</a>
           </NavLink>
           </div>
           <div className="bg-gray-800 w-full py-2 mt-4">
