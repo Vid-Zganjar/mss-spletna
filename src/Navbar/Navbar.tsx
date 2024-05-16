@@ -14,8 +14,8 @@ function Navbar() {
  
     <>
     
-<nav className="cont bg-black shadow ">
-    <div className="container flex justify-evenly items-center mx-auto text-gray-100 capitalize ">
+<nav className="cont bg-black shadow py-10">
+    <div className="container flex justify-evenly items-center mx-auto text-gray-100 capitalize">
       <div>
         <NavLink to="/novice">
         <a href='#' className="border-b-2 border-transparent hover:border-green-500 ">Novice</a>
@@ -23,7 +23,7 @@ function Navbar() {
         </div>
         <div>
         <NavLink to="/trgovina">
-        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 ">Trgovina</a>
+        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-8 ">Trgovina</a>
         </NavLink>
         </div>
         <div>
@@ -35,7 +35,7 @@ function Navbar() {
         </div>
         <div>
         <NavLink to="/about">
-        <a href='#'  className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 ">O nas</a>
+        <a href='#'  className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 pr-2">O nas</a>
         </NavLink>
         </div>
         <div className='flex justify-end'>
