@@ -18,24 +18,24 @@ function Navbar() {
     <div className="container flex justify-evenly items-center mx-auto text-gray-100 capitalize ">
       <div>
         <NavLink to="/novice">
-        <a href='#' className="border-b-2 border-transparent hover:border-green-500 md:mx-10">Novice</a>
+        <a href='#' className="border-b-2 border-transparent hover:border-green-500 ">Novice</a>
         </NavLink>
         </div>
         <div>
         <NavLink to="/trgovina">
-        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 md:mx-10">Trgovina</a>
+        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 ">Trgovina</a>
         </NavLink>
         </div>
         <div>
         <NavLink to="/">
-        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  mx-10">
+        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  ">
           <img className='slika' src={logo} alt="logo" />
         </a>
         </NavLink>
         </div>
         <div>
         <NavLink to="/about">
-        <a href='#'  className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 md:mx-10">O nas</a>
+        <a href='#'  className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-5 ">O nas</a>
         </NavLink>
         </div>
         <div className='flex justify-end'>
