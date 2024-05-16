@@ -56,6 +56,7 @@ function CardTrgovina() {
     Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
     suscipit purus quis nisi commodo, vel commodo justo fringilla.
     Curabitur convallis fermentum tincidunt. Aliquam erat volutpat." />
+   
   </div>
 
   <div className='p-10'>
@@ -66,6 +67,7 @@ function CardTrgovina() {
     Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
     suscipit purus quis nisi commodo, vel commodo justo fringilla.
     Curabitur convallis fermentum tincidunt. Aliquam erat volutpat." />
+     
   </div>
 
   <div className='p-10'>

@@ -23,7 +23,9 @@ const Text = card.Text
   <div className="p-6 text-surface dark:text-white">
     <h5 className="mb-2 text-xl font-medium leading-tight">{Naslov}</h5>
     <p className="mb-4 text-base">
-      {Text}
+      {Text} Welcome to my page! My name is [Your Name] and I'm passionate about [Your Passion/Hobby/Interest]. 
+        I love [Describe what you love doing or what defines you]. 
+        I created this website to [Purpose of the website].
     </p>
     <button
       type="button"
