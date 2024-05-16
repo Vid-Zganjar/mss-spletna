@@ -23,7 +23,7 @@ function Navbar() {
         </div>
         <div>
         <NavLink to="/trgovina">
-        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 mx-8 ">Trgovina</a>
+        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 ">Trgovina</a>
         </NavLink>
         </div>
         <div>

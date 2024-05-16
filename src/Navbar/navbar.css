@@ -1,6 +1,6 @@
 .slika{
     padding: 5px;
-    width: 150px;
+    width: 100px;
     border-radius: 8px;
     opacity: 0.5;
 }
@@ -38,7 +38,7 @@
 
   @media (min-width:1000px) {
     .cont{
-        padding-right:90px;
+        padding-right:20px;
     }
 }
 .active{
