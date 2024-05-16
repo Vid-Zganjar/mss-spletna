@@ -18,12 +18,12 @@ function Navbar() {
     <div className="container flex justify-evenly items-center mx-auto text-gray-100 capitalize">
       <div>
         <NavLink to="/novice">
-        <a href='#' className="border-b-2 border-transparent hover:border-green-500 ">Novice</a>
+        <a href='#' className="border-b-2 border-transparent hover:border-green-500">Novice</a>
         </NavLink>
         </div>
         <div>
         <NavLink to="/trgovina">
-        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500 ">Trgovina</a>
+        <a href='#' className="border-b-2 border-transparent hover:text-gray-50  hover:border-green-500  md:pl-4">Trgovina</a>
         </NavLink>
         </div>
         <div>
