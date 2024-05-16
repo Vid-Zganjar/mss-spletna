@@ -14,7 +14,7 @@ function Navbar() {
  
     <>
     
-<nav className="cont bg-black shadow py-10 md:py-5">
+<nav className="cont bg-black shadow py-5 md:py-15">
     <div className="container flex justify-evenly items-center mx-auto text-gray-100 capitalize">
       <div>
         <NavLink to="/novice">

@@ -12,16 +12,14 @@ const Home = () => {
   
   return (
     <>
-  
-    <div className="relative max-h-lvh ">
-
-        <img className="max-h-lvh w-full object-cover" src={slika} alt="Random image" />
-        <div className="absolute inset-0 back">  </div>
-        <div className="absolute inset-0 h-screen flex flex-col md:p-0 lg:p-10 items-center justify-center">
-            <h2 className=" text-white text-4xl font-bold lg:text-7xl md:p-10 lg:p-20">Mladinska sekcija Šentjanž</h2>
-            <p className=" text-center text-white text-xs p-10  italic" >Mladost - pot do odkritja, prijateljstva in sprememb. Skupaj gradimo jutrišnji svet.</p>
-            <button type="button" className="  text-white bg-gradient-to-br from-yellow-400 to-green-500 hover:border-2 border-black-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Pridruži se</button> 
-        </div>
+    <div className="flex flex-col justify-center items-center h-screen back text-center p-5 box-border">
+      <h1 className="text-white font-bold text-5xl lg:text-7xl md:text-4xl sm:text-4xl mb-2">Mladinska sekcija Šentjanž</h1>
+      <h2 className="text-white pt-10 italic text-2xl md:text-xl sm:text-lg mb-4">
+        Mladost - pot do odkritja, prijateljstva in sprememb. Skupaj gradimo jutrišnji svet.
+      </h2>
+      <button className="px-8 py-4 text-white bg-gradient-to-br from-yellow-400 to-green-500 hover:border-2 border-black-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+        Pridruži se
+      </button>
     </div>
     <hr className="w-48 h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10" />
       <Trgovina />
